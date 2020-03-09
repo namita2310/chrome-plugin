@@ -1,0 +1,22 @@
+{
+    "name":"color-picker",
+    "version":"1.0",
+    "description":"Find the color code of any colour on a website!",
+    "permissions":["activeTab", "declarativeContent",  "storage"],
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+    "page_action":{
+        "default_popup":"popup.html"
+    },
+    
+    "icons":{
+        "16": "images/i16.png",
+        "32": "images/i32.png",
+        "48": "images/i48.png",
+        "128": "images/i128.png"
+    },
+    "options_page": "options.html",
+    "manifest_version":2
+}
